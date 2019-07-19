@@ -1,0 +1,18 @@
+.question-card{
+    width: 100%;
+    margin: 0;
+    border : '2xp solid black';
+}
+.question{
+    padding: 10;
+    width: 100%;
+}
+.question-card-div{
+    margin: 0;
+    padding : 10px;
+    width: 100%;
+}
+
+.add-question-set{
+    flex: 1;
+}

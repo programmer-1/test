@@ -1,0 +1,12 @@
+
+.apptitude-main-div{
+    position: relative;
+    width : 98%;
+    background-color:#FAFAFA;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.img-icon{
+    width: 20vw;
+    height: 20vh;
+}

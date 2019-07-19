@@ -1,0 +1,42 @@
+.center-div{
+    margin : auto;
+    width : 90vh;
+    position: relative;
+    background-color : white;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.logo{
+    padding: 3px;
+    width :7vh;
+    height: 7vh;
+    border-radius : 100%;
+}
+
+h2{
+    margin-left: 0;
+    margin-right: 0;
+    align-content: center;
+}
+
+.login-form {
+    width: 100%;
+  }
+
+  .login-form-forgot {
+    float: right;
+  }
+
+  .login-form-button {
+    color : white;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: DodgerBlue;
+  }
+
+  .input-component{
+    width : 100%;
+     border-radius : 5px;
+  }

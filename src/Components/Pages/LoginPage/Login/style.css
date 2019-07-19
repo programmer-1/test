@@ -1,0 +1,56 @@
+ .bg{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 20px solid brown;
+  background: green;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+} 
+.corners { 
+  background: #FFF;
+  height: 500px;
+  margin: 50px auto;
+  max-width: 400px;
+  line-height:25px;
+  position: relative;
+  width: 80%;
+  font-family:arial; font-size:16px; font-weight:bold; padding:10px; padding-top:40px;
+  -webkit-box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
+     -moz-box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
+          box-shadow: 0 1px 7px hsla(0,0%,0%,.2);
+}
+
+/* Corner Effect */
+.corners:after,
+.corners:before {
+  background: #8D8787;
+  content: '';
+  height: 40px;
+  position: absolute;
+  top: -25px;
+  width: 100px;
+  opacity: 0.4;
+  -webkit-box-shadow: 0 5px 10px -7px hsla(0,0%,0%,.5);
+     -moz-box-shadow: 0 5px 10px -7px hsla(0,0%,0%,.5);
+          box-shadow: 0 5px 10px -7px hsla(0,0%,0%,.5);
+}
+.corners:after {
+  left: -50px;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.corners:before {
+  right: -50px;
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+}

@@ -1,0 +1,17 @@
+.float-div{
+    background: #000006;
+        position : fixed;
+        overflow : hidden;
+        z-index : 2400;
+        opacity : 0.85;
+        right: 30px;
+        top: 55px !important;
+        right: 1px !important;
+        width: 250px;
+        height: 300px;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+}
